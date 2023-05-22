@@ -1,80 +1,174 @@
-📗 Table of Contents
-📖 About the Project
-🛠 Built With
-Tech Stack
-Key Features
-🚶‍♂️ Walkthrough
-💻 Getting Started
-Setup
-Prerequisites
-👥 Authors
-🔭 Future Features
-🤝 Contributing
-⭐️ Show your support
-🙏 Acknowledgements
-📝 License
-📖 [LeaderBoard]
-[leaderboard] website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service. Build with HTML, CSS and Javascript.
+<a name="readme-top"></a>
 
-🛠 Built With
-Tech Stack
-HTML5
-CSS3
-Javascript
-Key Features
-User data is stored in the Local Storage
-User data can also be retrieved from the Local Storage
-(back to top)
+<!-- TABLE OF CONTENTS -->
 
-💻 Getting Started
-We will take you through the process. follow these steps.
+# 📗 Table of Contents
 
-Prerequisites
-In order to get started, you be familiar with basic git commands.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-Setup
-Clone this repository to your desired folder.
+<!-- PROJECT DESCRIPTION -->
 
-Example commands:
+# 📖 leaderboard <a name="about-project"></a>
 
-cd my-folder
+**leaderboard** website displays scores submitted by different players. It also allows users to submit their score. All data is preserved thanks to the external Leaderboard API service.
 
-https://github.com/Megagig/leaderboard.git
-(back to top)
+## 🛠 Built With <a name="built-with"> </a>
 
-Install
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Html</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Css</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Javascript</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[Project Structure]**
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+A working connection and a coding editor like visual studio code
+
+### Setup
+
+Clone this repository to your desired folder:
+
+- git clone https://github.com/megagig/leaderborad.git
+
+Use git push at your desired location and use the command git clone and paste the URL
+
+### Install
+
 Install this project with:
 
-Clone this Repo to your local machine and run in your preferred text editor(ex. Atom, VScode).
-Usage
-Run the index.html with your preferred browser.
+- cd leaderboard
+- npm install
 
-(back to top)
+### Usage
 
-👥 Authors
-👤 Obi Anthony
+To run the project, execute the following command:
 
-GitHub: @Megagig
-Twitter: @Megagigsolution
-LinkedIn: Obi Anthony
-(back to top)
+- npm run start
 
-🔭 Future Features
-[Add dynamic navigation and improve the UI]
-(back to top)
+### Run tests
 
-🤝 Contributing
+To run tests, run the following command:
+
+- cd src
+- npm run test
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 ** Obi Anthony **
+
+- GitHub: [@megagig](https://github.com/megagig)
+- Twitter: [@megagigsolution](https://twitter.com/megagigsolution)
+- LinkedIn: [Anthony Obi](https://www.linkedin.com/in/obi-anthony-440a1430/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **[Add a second page file ]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](../../issues/).
 
-⭐️ Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+## ⭐️ Show your support <a name="support"></a>
+
 If you like this project, follow me to see all my projects in the future
 
-🙏 Acknowledgments
-Kudos to Microverse for such amazing opportunity to learn web development
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-📝 License
-This project is MIT licensed.
+<!-- ACKNOWLEDGEMENTS -->
 
-(back to top)
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank...
+
+- Creative Commons license of the design
+- I would like to thanks all my coding partners at Microverse
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
