@@ -7,4 +7,59 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f5f5f5;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 70%;
+  padding: 40px;
+}
+
+#score-list {
+  border: 2px solid #000;
+  width: 20vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+#score-list li {
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+.add-score input {
+  padding: 10px;
+  width: auto;
+  border: 2px solid #000;
+}
+
+#submit-btn {
+  align-self: flex-end;
+  width: 80px;
+  margin-right: 93px;
+  padding: 4px;
+  margin-top: 20px;
+  margin-left: 106px;
+}
+
+.recent-scores {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
 }
