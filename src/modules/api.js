@@ -1,4 +1,4 @@
-// // Module for API-related functions
+// Module for API-related functions
 const leaderboardApi =
   'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 
