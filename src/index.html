@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leaderboard</title>
+    <title>Leaderboard project</title>
   </head>
   <body>
     <h1>Leaderboard</h1>
@@ -12,39 +12,19 @@
       <div class="scores">
         <div class="recent-scores">
           <h3>Recent Scores</h3>
-
-          <input id="refresh-btn" type="button" value="Refresh"/>
-
+          <input id="refresh-btn" type="button" value="Refresh" />
         </div>
-        <ul id="score-list">
-          <li class="list">Name: 120</li>
-          <li class="list">Name: 20</li>
-          <li class="list">Name: 50</li>
-          <li class="list">Name: 78</li>
-          <li class="list">Name: 125</li>
-          <li class="list">Name: 77</li>
-          <li class="list">Name: 42</li>
-          <li class="list">Name: 180</li>
-        </ul>
+        <ul class="score-list"></ul>
       </div>
 
-        <div class="add-score">
-            <h3>Add Your Score</h3>
-            <form id="form">
-            <input
-                type="text"
-                id="name"
-                placeholder="Your Name"
-                required
-            />
-            <input
-                type="number"
-                id="score"
-                placeholder="Your Score"
-                required
-            />
-            <button id="submit-btn" type="submit">Submit</button>
-            </form>
+      <div class="add-score">
+        <h3>Add Your Score</h3>
+        <form id="form">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="number" id="score" placeholder="Your Score" required />
+          <button id="submit-btn" type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>

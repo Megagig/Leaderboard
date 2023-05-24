@@ -28,7 +28,7 @@ body {
 #score-list {
   border: 2px solid #000;
   width: 20vw;
-  height: auto;
+  height: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
