@@ -1,6 +1,5 @@
 // Module for API-related functions
-const leaderboardApi =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
+const leaderboardApi = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 
 const submitScore = async (name, score, gameID) => {
   const response = await fetch(`${leaderboardApi}games/${gameID}/scores/`, {

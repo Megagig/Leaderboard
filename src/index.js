@@ -1,8 +1,7 @@
 import './style.css';
 import { refreshScores, submitScore, displayScores } from './modules/api.js';
 
-const leaderboardApi =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
+const leaderboardApi = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 
 const createGame = async () => {
   const response = await fetch(`${leaderboardApi}games/`, {
