@@ -133,8 +133,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-## ⭐️ Show your support <a name="support"></a>
-
 If you like this project, follow me to see all my projects in the future
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
